@@ -14,7 +14,7 @@ body {
 /* sezione header, barra nav e logo */
 
 header {
-    width:100vw;
+    width: 100%;
     background-color: #222F3F;
     padding: 0.8em 0;
 }
@@ -23,7 +23,7 @@ header {
     margin-bottom: 0;
     padding-left: 2.7em;
     display: inline-block;
-    width: 8vw;
+    width: 10vw;
     background-color: #222F3F;
 }
 
@@ -49,10 +49,93 @@ section {
 }
 
 h1 {
+    font-size: 1em;
     padding: 0.5em;
     color: #FFF3CD;
     background-color: #F56600;
-    margin-bottom: 1em;
-    margin-top: 1em;
+    margin-bottom: 0.8em;
+    margin-top: 0.8em;
     text-align: center;
+}
+
+.section2 {
+    margin-bottom: 1.7em;
+    margin-top: 1.4em;
+    padding: 3em;
+    height: 10em;
+    color: #F7FEFE;
+    text-align: center;
+    background-image: url("/Amazon page/assets/Imgs/bg-image.png");
+}
+
+p {
+    margin-top: 1.8em;
+}
+
+.section3 {
+    background: #FFFFFF;
+    width: 90%;
+    text-align: left;
+    display: inline-block;
+}
+
+.containerimg1 {
+    width: 10vw;
+    display: inline-block;
+}
+
+.containerimg2 {
+    width: 10vw;
+    display: inline-block;
+}
+
+.containerimg3 {
+    width: 10vw;
+    display: inline-block;
+}
+
+.containerimg4 {
+    width: 10vw;
+    display: inline-block;
+}
+
+span {
+    font-size: 0.8em;
+    padding-left: 1em;
+    color: #1A6979;
+    display: inline-block
+}
+
+aside,
+h4,
+a {
+    color: #F7FEFE;
+    width: 100vw;
+    background-color: #364757;
+    text-align: center;
+    display: inline-block;
+}
+
+aside, a {
+    padding: 0.5em;
+    font-size: 1em;
+}
+
+
+/* Footer */
+
+footer {
+    padding: 1.5em 0;
+    width: 100%;
+    background-color: #222F3F;
+}
+
+#logo2 {
+    padding: 1.2em;
+    margin-top: 0.8em;
+    text-align: center;
+    margin-left: 45vw;
+    display: inline-block;
+    width: 12vw;
+    background-color: #222F3F;
 }
