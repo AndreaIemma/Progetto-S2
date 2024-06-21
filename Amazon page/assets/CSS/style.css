@@ -5,8 +5,7 @@
 }
 
 body {
-    width: 100%;
-    box-sizing: border-box;
+    width: 100vw;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
     background-color: #E9EDEE;
@@ -15,16 +14,16 @@ body {
 /* sezione header, barra nav e logo */
 
 header {
-    width: 100%;
+    width:100vw;
     background-color: #222F3F;
     padding: 0.8em 0;
 }
 
 #logo1 {
-    margin-bottom: 0.2em;
-    padding-left: 3em;
+    margin-bottom: 0;
+    padding-left: 2.7em;
     display: inline-block;
-    width: 1vw;
+    width: 8vw;
     background-color: #222F3F;
 }
 
@@ -33,7 +32,8 @@ nav {
 }
 
 nav ul li {
-    padding: 0.3em;
+    background-color: #364757;
+    padding: 0.4em;
     font-size: 0.8em;
     color: #F7FEFE;
     text-decoration: none;
