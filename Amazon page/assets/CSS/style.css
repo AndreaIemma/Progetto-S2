@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: #E9EDEE;
+}
+
+/* sezione header, barra nav e logo */
+
+header {
+    width: 100vw;
+    background-color: #222F3F;
+    padding: 0.8em 0;
+}
+
+#logo1 {
+    margin-bottom: 0.2em;
+    padding-left: 3em;
+    display: inline-block;
+    width: 1vw;
+    background-color: #222F3F;
+}
+
+nav {
+    background-color: #364757;
+}
+
+nav ul li {
+    padding: 0.3em;
+    font-size: 0.8em;
+    color: #F7FEFE;
+    text-decoration: none;
+    display: inline-block;
+    justify-content: space-between;
+}
+
+/* Sezione main con relativi prodotti */
+
+section {
+    margin-left: 2.8em;
+    margin-right: 2.8em;
+}
+
+h1 {
+    padding: 0.5em;
+    color: #FFF3CD;
+    background-color: #F56600;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    text-align: center;
+}
